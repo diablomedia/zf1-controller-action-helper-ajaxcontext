@@ -192,9 +192,9 @@ class Zend_Controller_Action_Helper_AjaxContextTest extends PHPUnit\Framework\Te
 
         $helper->setActionController(
             new Zend_Controller_Action_Helper_AjaxContextTestController(
-                        $request,
-                        $this->response,
-                        array()
+                $request,
+                $this->response,
+                array()
                     )
         );
 
