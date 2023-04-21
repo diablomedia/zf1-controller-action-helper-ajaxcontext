@@ -9,10 +9,9 @@
     "homepage": "http://framework.zend.com/",
     "license": "BSD-3-Clause",
     "prefer-stable": true,
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0",
-        "diablomedia/zendframework1-controller-action-helper-contextswitch": "dev-php-82 as 1.0.3"
+        "diablomedia/zendframework1-controller-action-helper-contextswitch": "^1.0.3"
     },
     "autoload": {
         "classmap": [
